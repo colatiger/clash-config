@@ -20,3 +20,6 @@ clash系列
 #### 站点推广
 1. 虎窝GFW资源站 https://www.hwgfw.xyz
 2. 虎窝影院 https://movie.hwgfw.xyz
+
+### 联系我们
+电报群：https://t.me/hwgfw
