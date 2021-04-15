@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 @github.com/colatiger - 广东省广州市移动 8, server: 183.236.57.24, port: 13252, type: ss, cipher: aes-256-gcm, password: cPQHo2tyFK29}
   - {name: 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b, server: ss-01.ssrsub.one, port: 156, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
   - {name: 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b, server: ss-02.ssrsub.one, port: 1156, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
   - {name: 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b, server: ss-03.ssrsub.one, port: 156, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
@@ -54,19 +53,13 @@ proxies:
   - {name: 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b, server: 183.236.57.24, port: 17194, type: ss, cipher: aes-256-gcm, password: Gt29TROd1mpX}
   - {name: 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b, server: 183.236.57.24, port: 14829, type: ss, cipher: aes-256-gcm, password: TY1ehyLGFZZh}
   - {name: 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b, server: 178.238.231.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2, server: 209.141.62.198, port: 12133, type: vmess, uuid: dab78028-5966-4aa0-a99b-5db8efdaf430, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 209.141.62.198}}
-  - {name: 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name: 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
-  - {name: 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5, server: 23.224.31.202, port: 443, type: vmess, uuid: 28a84b69-e118-47a0-9869-f397bcc9fbbd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.31.202}}
-  - {name: 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name: 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7, server: 132.145.111.134, port: 443, type: vmess, uuid: bae399d4-13a4-46a3-b144-4af2c0004c2e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 132.145.111.134}}
-  - {name: 🇨🇳 @github.com/colatiger - 广东省广州市移动 9, server: 183.gczm.blackhole02.site, port: 10090, type: vmess, uuid: 77cd72fe-040e-4812-88f9-74ab4e809ac0, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.iqiyi.com}}
-  - {name: 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10, server: temp1.in.zeroteam.top, port: 22400, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11, server: cn3.in.zeroteam.top, port: 22400, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇺🇲 @github.com/colatiger - 美国  12, server: l2-us-cera-01.mugun.xyz, port: 80, type: vmess, uuid: fc345b49-b6bf-3268-8be9-bfce6da92543, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mugua, ws-headers: {Host: l2-us-cera-01.mugun.xyz}}
-  - {name: 🇺🇲 @github.com/colatiger - 北美地区  13, server: s100.snodes.xyz, port: 80, type: vmess, uuid: a1121be7-6d3a-32c5-8a45-cc43bcd16295, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /panel, ws-headers: {Host: s100.snodes.xyz}}
-  - {name: 🇸🇬 @github.com/colatiger - 新加坡阿里云 20, server: s314.snodes.xyz, port: 80, type: vmess, uuid: a1121be7-6d3a-32c5-8a45-cc43bcd16295, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /panel, ws-headers: {Host: s314.snodes.xyz}}
-  - {name: 🇸🇬 @github.com/colatiger - 新加坡阿里云 21, server: s180.snodes.xyz, port: 80, type: vmess, uuid: a1121be7-6d3a-32c5-8a45-cc43bcd16295, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /panel, ws-headers: {Host: s180.snodes.xyz}}
+  - {name: 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
+  - {name: 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3, server: 23.224.31.202, port: 443, type: vmess, uuid: 28a84b69-e118-47a0-9869-f397bcc9fbbd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.31.202}}
+  - {name: 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
+  - {name: 🇨🇳 @github.com/colatiger - 广东省广州市移动 5, server: jp2-relay.kejibearnode.cf, port: 12675, type: vmess, uuid: 3647ebdb-fa25-385f-a78b-f137811e586f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: jp2-relay.kejibearnode.cf}}
+  - {name: 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
+  - {name: 🇨🇳 @github.com/colatiger - 广东省广州市移动 9, server: sg6-relay.kejibearnode.cf, port: 10025, type: vmess, uuid: 3647ebdb-fa25-385f-a78b-f137811e586f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: sg6-relay.kejibearnode.cf}}
+  - {name: 🇨🇳 @github.com/colatiger - 广东省广州市移动 11, server: in1-relay.kejibearnode.cf, port: 10015, type: vmess, uuid: 3647ebdb-fa25-385f-a78b-f137811e586f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: in1-relay.kejibearnode.cf}}
   - {name: 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b, server: v2-01.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: github.com/colatiger}}
   - {name: 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b, server: v2-02.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: github.com/colatiger}}
   - {name: 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b, server: v2-03.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: github.com/colatiger}}
@@ -82,13 +75,10 @@ proxies:
   - {name: 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b, server: free.milagropets.tech, port: 80, type: vmess, uuid: fe4b09d6-8af6-33a2-8340-d3539f8c8a4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ray, ws-headers: {Host: free.milagropets.tech}}
   - {name: 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b, server: sg1322.azzico.space, port: 11558, type: vmess, uuid: 15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: github.com/colatiger}}
   - {name: 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b, server: sg1322.azzico.space, port: 11558, type: vmess, uuid: 8bdd2925-7218-314b-987a-dcbb44d09852, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: github.com/colatiger}}
-  - {name: 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz, server: 127.0.0.1, port: 10808, type: trojan, password: hwgfw.xyz}
-  - {name: 🇨🇦 @github.com/colatiger - 加拿大  14, server: t04.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t04.ssrsub.one}
-  - {name: 🇨🇦 @github.com/colatiger - 加拿大  15, server: t02.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t02.ssrsub.one}
-  - {name: 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16, server: t03.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t03.ssrsub.one}
-  - {name: 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17, server: t10.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t10.ssrsub.one}
-  - {name: 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co}
-  - {name: 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19, server: t08.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t08.ssrsub.one}
+  - {name: 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz, server: 127.0.0.1, port: 10808, type: trojan, password: hwgfw.xyz}
+  - {name: 🇷🇺 @github.com/colatiger - 俄罗斯  6, server: t11.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t11.ssrsub.one}
+  - {name: 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8, server: t06.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t06.ssrsub.one}
+  - {name: 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co}
   - {name: 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b, server: t01.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t01.ssrsub.one}
   - {name: 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b, server: t02.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t02.ssrsub.one}
   - {name: 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b, server: t03.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t03.ssrsub.one}
@@ -108,7 +98,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 8
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b
@@ -157,19 +146,13 @@ proxy-groups:
       - 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b
       - 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b
       - 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
       - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6
-      - 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 5
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7
       - 🇨🇳 @github.com/colatiger - 广东省广州市移动 9
-      - 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10
-      - 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11
-      - 🇺🇲 @github.com/colatiger - 美国  12
-      - 🇺🇲 @github.com/colatiger - 北美地区  13
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 20
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 21
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 11
       - 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b
@@ -185,13 +168,10 @@ proxy-groups:
       - 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b
-      - 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz
-      - 🇨🇦 @github.com/colatiger - 加拿大  14
-      - 🇨🇦 @github.com/colatiger - 加拿大  15
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19
+      - 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz
+      - 🇷🇺 @github.com/colatiger - 俄罗斯  6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b
@@ -211,7 +191,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 8
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b
@@ -260,19 +239,13 @@ proxy-groups:
       - 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b
       - 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b
       - 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
       - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6
-      - 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 5
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7
       - 🇨🇳 @github.com/colatiger - 广东省广州市移动 9
-      - 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10
-      - 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11
-      - 🇺🇲 @github.com/colatiger - 美国  12
-      - 🇺🇲 @github.com/colatiger - 北美地区  13
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 20
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 21
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 11
       - 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b
@@ -288,13 +261,10 @@ proxy-groups:
       - 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b
-      - 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz
-      - 🇨🇦 @github.com/colatiger - 加拿大  14
-      - 🇨🇦 @github.com/colatiger - 加拿大  15
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19
+      - 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz
+      - 🇷🇺 @github.com/colatiger - 俄罗斯  6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b
@@ -314,7 +284,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 8
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b
@@ -363,19 +332,13 @@ proxy-groups:
       - 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b
       - 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b
       - 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
       - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6
-      - 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 5
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7
       - 🇨🇳 @github.com/colatiger - 广东省广州市移动 9
-      - 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10
-      - 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11
-      - 🇺🇲 @github.com/colatiger - 美国  12
-      - 🇺🇲 @github.com/colatiger - 北美地区  13
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 20
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 21
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 11
       - 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b
@@ -391,13 +354,10 @@ proxy-groups:
       - 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b
-      - 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz
-      - 🇨🇦 @github.com/colatiger - 加拿大  14
-      - 🇨🇦 @github.com/colatiger - 加拿大  15
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19
+      - 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz
+      - 🇷🇺 @github.com/colatiger - 俄罗斯  6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b
@@ -416,7 +376,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 8
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b
@@ -465,19 +424,13 @@ proxy-groups:
       - 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b
       - 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b
       - 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
       - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6
-      - 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 5
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7
       - 🇨🇳 @github.com/colatiger - 广东省广州市移动 9
-      - 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10
-      - 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11
-      - 🇺🇲 @github.com/colatiger - 美国  12
-      - 🇺🇲 @github.com/colatiger - 北美地区  13
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 20
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 21
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 11
       - 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b
@@ -493,13 +446,10 @@ proxy-groups:
       - 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b
-      - 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz
-      - 🇨🇦 @github.com/colatiger - 加拿大  14
-      - 🇨🇦 @github.com/colatiger - 加拿大  15
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19
+      - 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz
+      - 🇷🇺 @github.com/colatiger - 俄罗斯  6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b
@@ -518,7 +468,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 8
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b
@@ -567,19 +516,13 @@ proxy-groups:
       - 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b
       - 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b
       - 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
       - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6
-      - 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 5
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7
       - 🇨🇳 @github.com/colatiger - 广东省广州市移动 9
-      - 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10
-      - 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11
-      - 🇺🇲 @github.com/colatiger - 美国  12
-      - 🇺🇲 @github.com/colatiger - 北美地区  13
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 20
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 21
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 11
       - 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b
@@ -595,13 +538,10 @@ proxy-groups:
       - 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b
-      - 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz
-      - 🇨🇦 @github.com/colatiger - 加拿大  14
-      - 🇨🇦 @github.com/colatiger - 加拿大  15
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19
+      - 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz
+      - 🇷🇺 @github.com/colatiger - 俄罗斯  6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b
@@ -620,7 +560,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 8
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b
@@ -669,19 +608,13 @@ proxy-groups:
       - 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b
       - 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b
       - 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
       - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6
-      - 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 5
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7
       - 🇨🇳 @github.com/colatiger - 广东省广州市移动 9
-      - 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10
-      - 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11
-      - 🇺🇲 @github.com/colatiger - 美国  12
-      - 🇺🇲 @github.com/colatiger - 北美地区  13
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 20
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 21
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 11
       - 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b
@@ -697,13 +630,10 @@ proxy-groups:
       - 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b
-      - 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz
-      - 🇨🇦 @github.com/colatiger - 加拿大  14
-      - 🇨🇦 @github.com/colatiger - 加拿大  15
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19
+      - 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz
+      - 🇷🇺 @github.com/colatiger - 俄罗斯  6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b
@@ -723,7 +653,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 8
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b
@@ -772,19 +701,13 @@ proxy-groups:
       - 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b
       - 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b
       - 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
       - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6
-      - 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 5
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7
       - 🇨🇳 @github.com/colatiger - 广东省广州市移动 9
-      - 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10
-      - 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11
-      - 🇺🇲 @github.com/colatiger - 美国  12
-      - 🇺🇲 @github.com/colatiger - 北美地区  13
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 20
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 21
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 11
       - 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b
@@ -800,13 +723,10 @@ proxy-groups:
       - 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b
-      - 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz
-      - 🇨🇦 @github.com/colatiger - 加拿大  14
-      - 🇨🇦 @github.com/colatiger - 加拿大  15
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19
+      - 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz
+      - 🇷🇺 @github.com/colatiger - 俄罗斯  6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b
@@ -842,7 +762,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 8
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:suo.yt/hLnGn9b
@@ -891,19 +810,13 @@ proxy-groups:
       - 🇰🇷 @HWGFW-韩国ss46-付费推荐:suo.yt/hLnGn9b
       - 🇰🇷 @HWGFW-韩国ss47-付费推荐:suo.yt/hLnGn9b
       - 🇩🇪 @HWGFW-德国ss48-付费推荐:suo.yt/hLnGn9b
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM数据中心 2
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 2
       - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 3
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 4
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 5
-      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 6
-      - 🇨🇦 @github.com/colatiger - 加拿大多伦多Oracle云计算数据中心 7
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市Coperation Coloction数据中心 4
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 5
+      - 🇺🇲 @github.com/colatiger - 美国加利福尼亚州洛杉矶市CeraNetworks数据中心 7
       - 🇨🇳 @github.com/colatiger - 广东省广州市移动 9
-      - 🇭🇰 @github.com/colatiger - 香港Microsoft公司 10
-      - 🇨🇳 @github.com/colatiger - 江苏省徐州市联通 11
-      - 🇺🇲 @github.com/colatiger - 美国  12
-      - 🇺🇲 @github.com/colatiger - 北美地区  13
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 20
-      - 🇸🇬 @github.com/colatiger - 新加坡阿里云 21
+      - 🇨🇳 @github.com/colatiger - 广东省广州市移动 11
       - 🇨🇦 @HWGFW-加拿大V1-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V2-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大V3-付费推荐:suo.yt/hLnGn9b
@@ -919,13 +832,10 @@ proxy-groups:
       - 🇺🇲 @HWGFW-美国V13-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V14-付费推荐:suo.yt/hLnGn9b
       - 🇸🇬 @HWGFW-新加坡V15-付费推荐:suo.yt/hLnGn9b
-      - 🇸🇬 更新于:04-14 09:37:59 by hwgfw.xyz
-      - 🇨🇦 @github.com/colatiger - 加拿大  14
-      - 🇨🇦 @github.com/colatiger - 加拿大  15
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 16
-      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚JustHost 17
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 18
-      - 🇺🇲 @github.com/colatiger - 美国内华达州拉斯维加斯BuyVM 19
+      - 🇸🇬 更新于:04-15 08:20:42 by hwgfw.xyz
+      - 🇷🇺 @github.com/colatiger - 俄罗斯  6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯新西伯利亚justhost 8
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:suo.yt/hLnGn9b
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:suo.yt/hLnGn9b
