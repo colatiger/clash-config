@@ -5,16 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇴 @github.com/colatiger - 罗马尼亚  9, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
-  - {name: 🇸🇬 @github.com/colatiger - 新加坡OVH 17, server: ss.sg.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: o4qygNrXw7cE}
-  - {name: 🇺🇲 @github.com/colatiger - 美国  18, server: ss-18.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB}
-  - {name: 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19, server: ss-15.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
-  - {name: 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21, server: ss-16.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB}
-  - {name: 🇮🇩 @github.com/colatiger - 印度尼西亚  22, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
-  - {name: 🇺🇲 @github.com/colatiger - 美国  23, server: ss-13.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
+  - {name: 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
+  - {name: 🇸🇬 @github.com/colatiger - 新加坡OVH 6, server: ss.sg.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: o4qygNrXw7cE}
+  - {name: 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8, server: ss-15.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
+  - {name: 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
+  - {name: 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11, server: ss-16.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB}
+  - {name: 🇮🇩 @github.com/colatiger - 印度尼西亚  12, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
+  - {name: 🇺🇲 @github.com/colatiger - 美国  14, server: ss-18.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB}
+  - {name: 🇺🇲 @github.com/colatiger - 美国  15, server: ss-13.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
   - {name: 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger, server: ss-01.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
   - {name: 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger, server: ss-02.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
   - {name: 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger, server: ss-03.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
@@ -102,10 +100,9 @@ proxies:
   - {name: "@HWGFW-52-付费推荐:github.com/colatiger", server: 107.152.100.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: "@HWGFW-53-付费推荐:github.com/colatiger", server: 138.199.19.157, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: "@HWGFW-54-付费推荐:github.com/colatiger", server: 138.199.19.177, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15, server: t2.ssrsub.one, port: 8443, type: trojan, password: ssrsub, sni: t2.ssrsub.one}
-  - {name: 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co}
-  - {name: 🇨🇦 @github.com/colatiger - 加拿大  24, server: t3.ssrsub.one, port: 8443, type: trojan, password: ssrsub, sni: t3.ssrsub.one}
-  - {name: 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25, server: trojan.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: 52147717-3969-4dc9-8c18-883c8b3becfe, sni: trojan.internet-cloudflare-accelerate.tk}
+  - {name: 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3, server: trojan.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: 52147717-3969-4dc9-8c18-883c8b3becfe, sni: trojan.internet-cloudflare-accelerate.tk}
+  - {name: 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5, server: t2.ssrsub.one, port: 8443, type: trojan, password: ssrsub, sni: t2.ssrsub.one}
+  - {name: 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co}
   - {name: 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger, server: t1.ssrsub.one, port: 8443, type: trojan, password: ssrsub, sni: t1.ssrsub.one}
   - {name: 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger, server: t2.ssrsub.one, port: 8443, type: trojan, password: ssrsub, sni: t2.ssrsub.one}
   - {name: 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger, server: t3.ssrsub.one, port: 8443, type: trojan, password: ssrsub, sni: t3.ssrsub.one}
@@ -117,16 +114,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴 @github.com/colatiger - 罗马尼亚  9
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10
-      - 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16
-      - 🇸🇬 @github.com/colatiger - 新加坡OVH 17
-      - 🇺🇲 @github.com/colatiger - 美国  18
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21
-      - 🇮🇩 @github.com/colatiger - 印度尼西亚  22
-      - 🇺🇲 @github.com/colatiger - 美国  23
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2
+      - 🇸🇬 @github.com/colatiger - 新加坡OVH 6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11
+      - 🇮🇩 @github.com/colatiger - 印度尼西亚  12
+      - 🇺🇲 @github.com/colatiger - 美国  14
+      - 🇺🇲 @github.com/colatiger - 美国  15
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger
@@ -214,10 +209,9 @@ proxy-groups:
       - "@HWGFW-52-付费推荐:github.com/colatiger"
       - "@HWGFW-53-付费推荐:github.com/colatiger"
       - "@HWGFW-54-付费推荐:github.com/colatiger"
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20
-      - 🇨🇦 @github.com/colatiger - 加拿大  24
-      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25
+      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3
+      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger
@@ -229,16 +223,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴 @github.com/colatiger - 罗马尼亚  9
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10
-      - 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16
-      - 🇸🇬 @github.com/colatiger - 新加坡OVH 17
-      - 🇺🇲 @github.com/colatiger - 美国  18
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21
-      - 🇮🇩 @github.com/colatiger - 印度尼西亚  22
-      - 🇺🇲 @github.com/colatiger - 美国  23
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2
+      - 🇸🇬 @github.com/colatiger - 新加坡OVH 6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11
+      - 🇮🇩 @github.com/colatiger - 印度尼西亚  12
+      - 🇺🇲 @github.com/colatiger - 美国  14
+      - 🇺🇲 @github.com/colatiger - 美国  15
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger
@@ -326,10 +318,9 @@ proxy-groups:
       - "@HWGFW-52-付费推荐:github.com/colatiger"
       - "@HWGFW-53-付费推荐:github.com/colatiger"
       - "@HWGFW-54-付费推荐:github.com/colatiger"
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20
-      - 🇨🇦 @github.com/colatiger - 加拿大  24
-      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25
+      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3
+      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger
@@ -341,16 +332,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇴 @github.com/colatiger - 罗马尼亚  9
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10
-      - 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16
-      - 🇸🇬 @github.com/colatiger - 新加坡OVH 17
-      - 🇺🇲 @github.com/colatiger - 美国  18
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21
-      - 🇮🇩 @github.com/colatiger - 印度尼西亚  22
-      - 🇺🇲 @github.com/colatiger - 美国  23
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2
+      - 🇸🇬 @github.com/colatiger - 新加坡OVH 6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11
+      - 🇮🇩 @github.com/colatiger - 印度尼西亚  12
+      - 🇺🇲 @github.com/colatiger - 美国  14
+      - 🇺🇲 @github.com/colatiger - 美国  15
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger
@@ -438,10 +427,9 @@ proxy-groups:
       - "@HWGFW-52-付费推荐:github.com/colatiger"
       - "@HWGFW-53-付费推荐:github.com/colatiger"
       - "@HWGFW-54-付费推荐:github.com/colatiger"
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20
-      - 🇨🇦 @github.com/colatiger - 加拿大  24
-      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25
+      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3
+      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger
@@ -452,16 +440,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇴 @github.com/colatiger - 罗马尼亚  9
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10
-      - 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16
-      - 🇸🇬 @github.com/colatiger - 新加坡OVH 17
-      - 🇺🇲 @github.com/colatiger - 美国  18
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21
-      - 🇮🇩 @github.com/colatiger - 印度尼西亚  22
-      - 🇺🇲 @github.com/colatiger - 美国  23
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2
+      - 🇸🇬 @github.com/colatiger - 新加坡OVH 6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11
+      - 🇮🇩 @github.com/colatiger - 印度尼西亚  12
+      - 🇺🇲 @github.com/colatiger - 美国  14
+      - 🇺🇲 @github.com/colatiger - 美国  15
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger
@@ -549,10 +535,9 @@ proxy-groups:
       - "@HWGFW-52-付费推荐:github.com/colatiger"
       - "@HWGFW-53-付费推荐:github.com/colatiger"
       - "@HWGFW-54-付费推荐:github.com/colatiger"
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20
-      - 🇨🇦 @github.com/colatiger - 加拿大  24
-      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25
+      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3
+      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger
@@ -563,16 +548,14 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇴 @github.com/colatiger - 罗马尼亚  9
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10
-      - 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16
-      - 🇸🇬 @github.com/colatiger - 新加坡OVH 17
-      - 🇺🇲 @github.com/colatiger - 美国  18
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21
-      - 🇮🇩 @github.com/colatiger - 印度尼西亚  22
-      - 🇺🇲 @github.com/colatiger - 美国  23
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2
+      - 🇸🇬 @github.com/colatiger - 新加坡OVH 6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11
+      - 🇮🇩 @github.com/colatiger - 印度尼西亚  12
+      - 🇺🇲 @github.com/colatiger - 美国  14
+      - 🇺🇲 @github.com/colatiger - 美国  15
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger
@@ -660,10 +643,9 @@ proxy-groups:
       - "@HWGFW-52-付费推荐:github.com/colatiger"
       - "@HWGFW-53-付费推荐:github.com/colatiger"
       - "@HWGFW-54-付费推荐:github.com/colatiger"
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20
-      - 🇨🇦 @github.com/colatiger - 加拿大  24
-      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25
+      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3
+      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger
@@ -674,16 +656,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇴 @github.com/colatiger - 罗马尼亚  9
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10
-      - 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16
-      - 🇸🇬 @github.com/colatiger - 新加坡OVH 17
-      - 🇺🇲 @github.com/colatiger - 美国  18
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21
-      - 🇮🇩 @github.com/colatiger - 印度尼西亚  22
-      - 🇺🇲 @github.com/colatiger - 美国  23
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2
+      - 🇸🇬 @github.com/colatiger - 新加坡OVH 6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11
+      - 🇮🇩 @github.com/colatiger - 印度尼西亚  12
+      - 🇺🇲 @github.com/colatiger - 美国  14
+      - 🇺🇲 @github.com/colatiger - 美国  15
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger
@@ -771,10 +751,9 @@ proxy-groups:
       - "@HWGFW-52-付费推荐:github.com/colatiger"
       - "@HWGFW-53-付费推荐:github.com/colatiger"
       - "@HWGFW-54-付费推荐:github.com/colatiger"
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20
-      - 🇨🇦 @github.com/colatiger - 加拿大  24
-      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25
+      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3
+      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger
@@ -786,16 +765,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 @github.com/colatiger - 罗马尼亚  9
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10
-      - 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16
-      - 🇸🇬 @github.com/colatiger - 新加坡OVH 17
-      - 🇺🇲 @github.com/colatiger - 美国  18
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21
-      - 🇮🇩 @github.com/colatiger - 印度尼西亚  22
-      - 🇺🇲 @github.com/colatiger - 美国  23
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2
+      - 🇸🇬 @github.com/colatiger - 新加坡OVH 6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11
+      - 🇮🇩 @github.com/colatiger - 印度尼西亚  12
+      - 🇺🇲 @github.com/colatiger - 美国  14
+      - 🇺🇲 @github.com/colatiger - 美国  15
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger
@@ -883,10 +860,9 @@ proxy-groups:
       - "@HWGFW-52-付费推荐:github.com/colatiger"
       - "@HWGFW-53-付费推荐:github.com/colatiger"
       - "@HWGFW-54-付费推荐:github.com/colatiger"
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20
-      - 🇨🇦 @github.com/colatiger - 加拿大  24
-      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25
+      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3
+      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger
@@ -914,16 +890,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 @github.com/colatiger - 罗马尼亚  9
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 10
-      - 🇺🇲 @github.com/colatiger - 美国弗吉尼亚州马纳萨斯Leaseweb(WDC-01)数据中心 11
-      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 16
-      - 🇸🇬 @github.com/colatiger - 新加坡OVH 17
-      - 🇺🇲 @github.com/colatiger - 美国  18
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 19
-      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 21
-      - 🇮🇩 @github.com/colatiger - 印度尼西亚  22
-      - 🇺🇲 @github.com/colatiger - 美国  23
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 2
+      - 🇸🇬 @github.com/colatiger - 新加坡OVH 6
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 8
+      - 🇬🇧 @github.com/colatiger - 英国社会保险安全部 9
+      - 🇷🇺 @github.com/colatiger - 俄罗斯西伯利亚JustHost 11
+      - 🇮🇩 @github.com/colatiger - 印度尼西亚  12
+      - 🇺🇲 @github.com/colatiger - 美国  14
+      - 🇺🇲 @github.com/colatiger - 美国  15
       - 🇨🇦 @HWGFW-加拿大ss01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大ss03-付费推荐:github.com/colatiger
@@ -1011,10 +985,9 @@ proxy-groups:
       - "@HWGFW-52-付费推荐:github.com/colatiger"
       - "@HWGFW-53-付费推荐:github.com/colatiger"
       - "@HWGFW-54-付费推荐:github.com/colatiger"
-      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 15
-      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 20
-      - 🇨🇦 @github.com/colatiger - 加拿大  24
-      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 25
+      - 🇯🇵 @github.com/colatiger - 日本东京Amazon数据中心 3
+      - 🇨🇦 @github.com/colatiger - 加拿大安大略省基奇纳DataCity数据中心 5
+      - 🇸🇬 @github.com/colatiger - 新加坡NewMedia数据中心 10
       - 🇨🇦 @HWGFW-加拿大T01-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T02-付费推荐:github.com/colatiger
       - 🇨🇦 @HWGFW-加拿大T03-付费推荐:github.com/colatiger
